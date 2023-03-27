@@ -14,3 +14,5 @@ docker stack services voting_stack
 docker service ps voting_stack_vote
 
 docker service scale voting_stack_vote=5
+
+print "hello fayaz"
